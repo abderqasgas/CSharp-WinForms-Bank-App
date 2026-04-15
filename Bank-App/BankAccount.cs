@@ -9,6 +9,9 @@ namespace Bank_App
         public string Owner { get; set; }
         public Guid AccountNumber { get; set; }
         public decimal Balance { get; set; }
-
+        public BankAccount(string owner)
+        {
+            Owner = owner;
+        }
     }
 }
