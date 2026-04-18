@@ -8,7 +8,7 @@ namespace Bank_App
     {
         public string Owner { get; set; }
         public Guid AccountNumber { get; set; }
-        public decimal Balance { get; private set; }
+        public decimal Balance { get; protected set; }
         public BankAccount(string owner)
         {
             Owner = owner;
@@ -16,7 +16,7 @@ namespace Bank_App
             Balance = 0;
         }
 
-        public string Deposit(decimal amount)
+        public virtual string Deposit(decimal amount)
         {
             if (amount <= 0)
                 return "You cannot deposit $" + amount;
