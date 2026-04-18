@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Bank-App\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.Designer.cs",
-              "RelativeToolTip": "Bank-App\\Form1.Designer.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAnwIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:15:11.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SavingsAccount.cs",
-              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\SavingsAccount.cs",
-              "RelativeDocumentMoniker": "Bank-App\\SavingsAccount.cs",
-              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\SavingsAccount.cs",
-              "RelativeToolTip": "Bank-App\\SavingsAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:02:34.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Bank-App\\BankAccount.cs",
-              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
-              "RelativeToolTip": "Bank-App\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:20:59.001Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -79,22 +32,37 @@
               "RelativeDocumentMoniker": "Bank-App\\Form1.cs",
               "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs",
               "RelativeToolTip": "Bank-App\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T05:07:42.761Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs",
-              "RelativeDocumentMoniker": "Bank-App\\Form1.cs",
-              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs [Design]",
-              "RelativeToolTip": "Bank-App\\Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "SavingsAccount.cs",
+              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\SavingsAccount.cs",
+              "RelativeDocumentMoniker": "Bank-App\\SavingsAccount.cs",
+              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\SavingsAccount.cs",
+              "RelativeToolTip": "Bank-App\\SavingsAccount.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:16:34.956Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-18T20:02:34.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Bank-App\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
+              "RelativeToolTip": "Bank-App\\BankAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:20:59.001Z",
+              "EditorCaption": ""
             }
           ]
         }
