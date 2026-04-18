@@ -26,5 +26,16 @@ namespace Bank_App
             Balance += amount;
             return "Deposit completed successfully.";
         }
+
+        public string Withdraw(decimal amount)
+        {
+            if (amount <= 0)
+                return "You cannot withdraw $" + amount;
+            if (amount > Balance)
+                return "Insufficient Funds.";
+
+            Balance -= amount;
+            return "Withdraw completed successfully.";
+        }
     }
 }

@@ -14,12 +14,15 @@ namespace Bank_App
             if (string.IsNullOrEmpty(OwnerTxt.Text))
                 return;
 
-            BankAccount bankAccount = new BankAccount(OwnerTxt.Text);
-            BankAccounts.Add(bankAccount);
+            if (InterestRateNum.Value > 0)
+                BankAccounts.Add(new SavingsAccount(OwnerTxt.Text, InterestRateNum.Value));
+            else
+                BankAccounts.Add(new BankAccount(OwnerTxt.Text));
 
             RefreshGrid();
 
             OwnerTxt.Text = "";
+            InterestRateNum.Value = 0;
         }
 
         private void RefreshGrid()
@@ -30,26 +33,30 @@ namespace Bank_App
 
         private void DepositBtn_Click(object sender, EventArgs e)
         {
-            if (BankAccountsGrid.SelectedRows.Count == 1 && AmountNum.Value > 0)
+            if (BankAccountsGrid.SelectedRows.Count == 1)
             {
                 BankAccount selectedBankAccount = BankAccountsGrid.SelectedRows[0].DataBoundItem as BankAccount;
 
-                selectedBankAccount.Balance += AmountNum.Value;
+                string message = selectedBankAccount.Deposit(AmountNum.Value);
                 RefreshGrid();
                 AmountNum.Value = 0;
+                MessageBox.Show(message);
             }
         }
 
         private void WithdrawBtn_Click(object sender, EventArgs e)
         {
-            if (BankAccountsGrid.SelectedRows.Count == 1 && AmountNum.Value > 0)
+            if (BankAccountsGrid.SelectedRows.Count == 1)
             {
                 BankAccount selectedBankAccount = BankAccountsGrid.SelectedRows[0].DataBoundItem as BankAccount;
 
-                selectedBankAccount.Balance -= AmountNum.Value;
+                string message = selectedBankAccount.Withdraw(AmountNum.Value);
                 RefreshGrid();
                 AmountNum.Value = 0;
+                MessageBox.Show(message);
             }
         }
+
+        
     }
 }
