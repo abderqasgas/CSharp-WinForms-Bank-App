@@ -49,7 +49,6 @@
             label1.Size = new Size(79, 30);
             label1.TabIndex = 0;
             label1.Text = "Owner:\r\n";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -71,10 +70,11 @@
             // AmountNum
             // 
             AmountNum.Location = new Point(129, 307);
+            AmountNum.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
+            AmountNum.Minimum = new decimal(new int[] { 9999, 0, 0, int.MinValue });
             AmountNum.Name = "AmountNum";
             AmountNum.Size = new Size(140, 23);
             AmountNum.TabIndex = 3;
-            AmountNum.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // BankAccountsGrid
             // 
@@ -84,7 +84,6 @@
             BankAccountsGrid.Name = "BankAccountsGrid";
             BankAccountsGrid.Size = new Size(569, 265);
             BankAccountsGrid.TabIndex = 4;
-            BankAccountsGrid.CellContentClick += BankAccountsGrid_CellContentClick;
             // 
             // DepositBtn
             // 
@@ -94,6 +93,7 @@
             DepositBtn.TabIndex = 5;
             DepositBtn.Text = "Deposit";
             DepositBtn.UseVisualStyleBackColor = true;
+            DepositBtn.Click += DepositBtn_Click;
             // 
             // WithdrawBtn
             // 
@@ -103,6 +103,7 @@
             WithdrawBtn.TabIndex = 6;
             WithdrawBtn.Text = "Withdraw";
             WithdrawBtn.UseVisualStyleBackColor = true;
+            WithdrawBtn.Click += WithdrawBtn_Click;
             // 
             // CreateAccountBtn
             // 
@@ -112,6 +113,7 @@
             CreateAccountBtn.TabIndex = 7;
             CreateAccountBtn.Text = "Create Account";
             CreateAccountBtn.UseVisualStyleBackColor = true;
+            CreateAccountBtn.Click += CreateAccountBtn_Click;
             // 
             // Form1
             // 
@@ -128,7 +130,6 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)AmountNum).EndInit();
             ((System.ComponentModel.ISupportInitialize)BankAccountsGrid).EndInit();
             ResumeLayout(false);

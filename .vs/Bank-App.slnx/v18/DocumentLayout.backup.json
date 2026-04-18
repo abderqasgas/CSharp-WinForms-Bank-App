@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|c:\\users\\abder\\desktop\\c#projects\\bank-app\\bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BB268B5-BB66-605B-338C-3B03DDE98679}|Bank-App\\Bank-App.csproj|solutionrelative:bank-app\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BankAccount.cs",
               "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
               "RelativeDocumentMoniker": "Bank-App\\BankAccount.cs",
               "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\BankAccount.cs",
               "RelativeToolTip": "Bank-App\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:20:59.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:20:59.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs",
               "RelativeDocumentMoniker": "Bank-App\\Form1.cs",
               "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs",
               "RelativeToolTip": "Bank-App\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwCwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T05:07:42.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs",
               "RelativeDocumentMoniker": "Bank-App\\Form1.cs",
               "ToolTip": "C:\\Users\\abder\\Desktop\\C#Projects\\Bank-App\\Bank-App\\Form1.cs [Design]",
               "RelativeToolTip": "Bank-App\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T15:25:51.642Z",
+              "WhenOpened": "2026-04-18T03:35:55.968Z",
               "EditorCaption": " [Design]"
             }
           ]

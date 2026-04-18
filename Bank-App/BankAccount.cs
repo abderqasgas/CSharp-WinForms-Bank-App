@@ -8,10 +8,12 @@ namespace Bank_App
     {
         public string Owner { get; set; }
         public Guid AccountNumber { get; set; }
-        public decimal Balance { get; set; }
+        public decimal Balance { get; private set; }
         public BankAccount(string owner)
         {
             Owner = owner;
+            AccountNumber = Guid.NewGuid();
+            Balance = 0;
         }
     }
 }
