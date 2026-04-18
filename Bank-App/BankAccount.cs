@@ -15,5 +15,16 @@ namespace Bank_App
             AccountNumber = Guid.NewGuid();
             Balance = 0;
         }
+
+        public string Deposit(decimal amount)
+        {
+            if (amount <= 0)
+                return "You cannot deposit $" + amount;
+            if (amount > 20000)
+                return "AML Deposit Limit Reached.";
+
+            Balance += amount;
+            return "Deposit completed successfully.";
+        }
     }
 }
